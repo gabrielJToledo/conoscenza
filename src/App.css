@@ -1,0 +1,14 @@
+*  {
+  font-family: 'Tinos', serif;
+}
+
+.app {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 130px 1fr 1fr;
+  grid-template-areas: 
+    "header"
+    "content"
+    "footer";
+  height: 100vh;
+}
